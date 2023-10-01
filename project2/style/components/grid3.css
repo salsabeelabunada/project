@@ -1,0 +1,57 @@
+.griid .container  {
+    display: grid;
+    gap: 18px;
+    width: 75%;
+    height: auto;
+    grid-template-columns: 2fr 1fr;
+    position: relative;
+    font-size: small;
+    text-align: start;
+    top: -150px;
+    
+}
+.endpic {
+    height: 100%;
+    width: 100%;
+}
+
+
+.section2 {
+    background-color: white;
+    border: 1px solid #BDBDBD;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    justify-items: stretch;
+    padding-right: 5px;
+    border-radius: 5px;
+    align-items: center;
+}
+.smallpic {
+    display: flex;
+    width: 50px;
+    height: 100px;
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .griid .container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: start;
+        justify-content: center;
+        order: 1;
+    
+    }
+    .section1 {
+        order: 1;
+        flex-direction: row;
+       
+    }
+    .section2 {
+        order: 0;
+        flex-direction: row;
+        flex-grow: 0.5;
+    }
+
+} 

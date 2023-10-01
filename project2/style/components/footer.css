@@ -1,0 +1,122 @@
+footer {
+    background-color: #002147;
+}
+
+footer .container .callus {
+    padding-top: 50px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center
+}
+
+footer .callus .logofooter {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 20px;
+    justify-items: flex-end;
+    margin-left: 20px;
+    color: white;
+    padding-left: 20px;
+
+}
+.whitelogo {
+    display: flex;
+    align-items: center;
+    }
+
+.adress {
+    display: flex;
+    color: white;
+
+}
+
+.emailend {
+    display: flex;
+    color: white;
+}
+
+.phone {
+    display: flex;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+    color: white;
+}
+
+li {
+    margin-top: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+.smalltext {
+    margin-left: 8px;
+
+}
+
+.yelowfooter {
+    background-color: #FDC800;
+    width: 50%;
+    height: 50px;
+    transform: translateX(50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copy {
+    margin-left: 12px;
+    font-size: 10px;
+}
+
+.iconend {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-right: 12px;
+    gap: 10px;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    footer .container .callus {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        margin-top: 10px;
+align-items: center;
+    }
+    .yelowfooter {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+    footer .container .callus {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        border-bottom: 10px;
+    }
+    .yelowfooter {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    footer .container .callus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .yelowfooter {
+        display: none;
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    footer .container .callus {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

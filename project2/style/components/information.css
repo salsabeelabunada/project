@@ -1,0 +1,108 @@
+header {
+    background-color: #FDC800;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: 22px;
+
+}
+
+header .elemnt1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+header .elemnt2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.elemnt1 a {
+   
+    color: black;
+    font-size: 13px;
+    text-align: center;
+    vertical-align: middle;
+}
+@media (min-width: 0px) and (max-width: 992px) {
+    header{
+        display: none; 
+    }
+    header .elemnt1 {
+        display: none;
+       
+    }
+    header .elemnt2 {
+        display: none;
+    }
+    
+    .elemnt1 a {
+       
+        display: none;
+    }
+}
+.elemnt1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elemnt2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.iconend{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+   
+    border-radius: 35px;
+    text-align: center;
+    margin: 7px;
+    line-height: 80px;
+}
+
+a i {
+    transition: all 0.3s linear;
+}
+
+a:hover i {
+    transform: scale(1.5);
+}
+
+.location:hover {
+    color: rgb(104, 251, 150);
+}
+.email:hover {
+    color: rgb(255, 255, 255);
+}
+
+.facebook:hover {
+    color: rgb(97, 128, 253);
+}
+.pinterest:hover {
+    color: #ff0404;
+}
+
+.instagram:hover {
+    color: #ff4599;
+}
+
+.twitter:hover {
+    color: #3288ff;
+}
+

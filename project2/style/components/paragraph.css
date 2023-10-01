@@ -1,0 +1,41 @@
+.disc {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #002147;
+     text-wrap: wrap;
+    padding-bottom: 15px;
+}
+.paicon {
+    padding-right: 8px;
+    color: #00f5fd;
+}
+.paragr1 {
+    margin-top: 5px;
+    font-size: small;
+    text-wrap: wrap;
+    color: #292828;
+}
+.paragr2 {
+    margin-top: 10px;
+    font-size: small;
+    text-wrap: wrap;
+    color: #292828;
+}
+
+.pp1{
+   
+    font-size: small;
+    color: black;
+    text-wrap: wrap;
+
+}
+.pp2 {
+    display: flex;
+    padding-left: 10px;
+    font-size: 12px;
+    color: rgb(27, 27, 27);
+    text-wrap: wrap;
+}
+.fa-solid fa-check {
+display: flex;
+}

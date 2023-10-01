@@ -1,0 +1,100 @@
+.photos .container {
+    background-image: url(./map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 2rem;
+    padding: 20px;
+   
+}
+.photos{
+    background-color:#F0F4F9 ;
+   
+   
+}
+.photo1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo2 {
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo3 {
+    display: flex;
+   
+    align-items: center;
+    flex-direction: column;
+}
+
+.photo4 {
+    display: flex;
+  
+    align-items: center;
+    flex-direction: column;
+}
+
+.iimmgg {
+    display: flex;
+}
+
+.num {
+    display: flex;
+    color: #002147;
+    margin-top: 15px;
+    font-size: 33px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.end {
+    display: flex;
+    color: #00B2B2;
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .photos .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+    .photos .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .photos .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+    .photos .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+
+    }
+}

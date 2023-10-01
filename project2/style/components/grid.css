@@ -1,0 +1,310 @@
+.griid .container {
+    margin-top: 200px;
+
+}
+
+.boxes {
+    display: grid;
+    gap: 18px;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+}
+
+.hh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #002147;
+}
+
+.boxes .box1 {
+    width: 320px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+
+
+}
+
+
+.box1 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box1 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.the {
+    display: inline-block;
+    color: #757575;
+    margin-left: 10px;
+}
+
+.boxes .box2 {
+    width: 320px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+}
+
+
+.box2 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box2 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box3 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box3 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box3 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box4 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box4 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box4 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box5 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+.box5 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box5 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box6 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box6 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box6 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box7 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box7 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box7 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box8 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+.box8 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box8 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.the {
+    display: inline-block;
+    color: #757575;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.boxes .box9 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box9 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box9 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.the {
+    display: inline-block;
+    color: #757575;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    
+    }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+    .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    
+    }
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .photos .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+
+    }
+}
+

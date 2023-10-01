@@ -1,0 +1,73 @@
+.subsecrib .container {
+    margin-top: 20px;
+    
+}
+
+.allsub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+   
+}
+.sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ss {
+    color: #FDC800;
+    display: flex;
+}
+.ge {
+    display: flex;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+form {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%;
+   border: 1px solid #cccccc;
+   padding-left: 5px;
+   margin-top: 10px;
+   
+}
+.emaill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 5px;
+    border: none;
+}
+.mail {
+    display: inline-block;
+    border: none;
+    margin-left: 10px;
+}
+.subnow {
+background-color: #FDC800;
+padding: 0.5rem 1rem;
+margin: 5px; 
+color: #002147;
+border-radius: 4px;
+border: none;
+font-size: small; 
+text-wrap: nowrap;
+}
+@media (min-width: 0px) and (max-width: 992px) {
+    .allsub {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        order: 1;
+    
+    }
+    form {
+        order: 0;
+        flex-direction: row;
+    }
+
+} 

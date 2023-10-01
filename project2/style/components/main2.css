@@ -1,0 +1,56 @@
+main {
+    background-color: #F0F4F9;
+    padding: 15px 0px;
+
+}
+main .container .yellowtext {
+   font-size: 15px;
+    color: #FDC800;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.select {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 40px;
+    padding-bottom: 100px;
+   row-gap: 15px;
+    column-gap: 50px;
+    color: #002147;
+
+}
+
+
+.webtext {
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #002147;
+}
+@media (min-width: 0px) and (max-width: 576px) {
+    .select {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+    .select {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .select {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+}

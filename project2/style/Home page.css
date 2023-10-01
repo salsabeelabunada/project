@@ -1,0 +1,23 @@
+@import'./components/globel.css';
+@import'./components/header1.css';
+@import'./components/information.css';
+@import'./components/main.css';
+@import'./components/grid.css';
+@import'./components/feedback.css';
+@import'./components/photo.css';
+@import'./components/subsecrib.css';
+@import './components/footer.css';
+.loader {
+    margin: auto;
+    border: 20px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 20px solid #FF7A59;
+    width: 200px;
+    height: 200px;
+    animation: spinner 4s linear infinite;
+  }
+  
+  @keyframes spinner {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

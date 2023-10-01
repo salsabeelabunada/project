@@ -1,0 +1,462 @@
+.griid .container .boxes {
+    display: grid;
+    gap: 18px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+
+
+}
+.allgrid {
+    position: relative;
+    top: -50px;
+}
+
+.boxes .box1 {
+    width: 320px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+}
+
+
+.box1 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+.box1 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.the {
+    display: inline-block;
+    color: #757575;
+    margin-left: 10px;
+}
+
+.boxes .box2 {
+    width: 320px;
+    position: relative;
+    border: 1px solid #BDBDBD;
+}
+
+
+.box2 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box2 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box3 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box3 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box3 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box4 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box4 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box4 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box5 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+.box5 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box5 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box6 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box6 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box6 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box7 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box7 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box7 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+
+.boxes .box8 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+.box8 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box8 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.the {
+    display: inline-block;
+    color: #757575;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.boxes .box9 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box9 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+.box9 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box10 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box10 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box10 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box11 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box11 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box11 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box12 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box12 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box12 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box13 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box13 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box13 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box14 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+
+.box14 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box14 .user {
+
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+.boxes .box15 {
+    border: 1px solid #BDBDBD;
+    width: 320px;
+    position: relative;
+}
+
+
+.box15 .logg3 {
+    position: absolute;
+    bottom: 5rem;
+    left: 1rem;
+    border: 20px;
+
+}
+
+
+.box15 .user {
+    color: #002147;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+
+@media (min-width: 0px) and (max-width: 576px) {
+    .griid .container .boxes {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+
+    }
+}
+
+@media (min-width: 576px) and (max-width: 786px) {
+    .griid .container .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .griid .container .boxes {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+
+    }
+}
+
